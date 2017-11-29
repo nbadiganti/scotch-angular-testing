@@ -20,7 +20,11 @@ module.exports = function(config) {
       './node_modules/angular-mocks/angular-mocks.js',
       './app/services/users/users.js',
       './app/app.js',
-      './app/services/users/users.spec.js'
+      './app/services/users/users.spec.js',
+      './app/filters/emailFilter.js',
+      './app/filters/email.spec.js',
+      './app/controllers/passwordCtrl.js',
+      './app/controllers/passwordCtrl.spec.js'
     ],
 
 
